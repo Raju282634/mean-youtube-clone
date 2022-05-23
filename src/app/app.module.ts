@@ -19,7 +19,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 
-
 @NgModule({
   declarations: [
     AppComponent,

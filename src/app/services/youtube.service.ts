@@ -48,8 +48,7 @@ export class YoutubeService {
   getComments(id: any): Observable<object> {
     const url = `https://www.googleapis.com/youtube/v3/commentThreads?key=${this.apiKey}&textFormat=plainText&part=snippet&videoId=${id}&maxResults=20`;
     return this.http.get(url).pipe(map(res => {
-      return res;
-    }));
+      return res; }));
   }
 
   getChannel(id: any): Observable<object> {

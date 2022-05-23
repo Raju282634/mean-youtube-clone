@@ -22,7 +22,7 @@ export class WatchVideoComponent implements OnInit {
               private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.id = this.route.snapshot.queryParamMap.get('id');
+    this.id = this.route.snapshot.queryParamMap.get('v');
     this.channelId = this.route.snapshot.queryParamMap.get('channelId');
     this.getVideo(this.id);
     this.getVideos();
