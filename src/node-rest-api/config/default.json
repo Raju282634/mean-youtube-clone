@@ -1,0 +1,4 @@
+{
+  "mongoUri": "mongodb+srv://test:test@mean-youtube-clone-clus.7h0vk.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "deepak708745"
+}
